@@ -1,0 +1,479 @@
+ /*import font*/
+ @import url(http://allfont.ru/allfont.css?fonts=roboto-slab-regular);
+
+/*options default index.html*/
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Slab Regular', arial;
+}
+
+.mr_n{margin-right: 0 !important;}
+.ml_n{margin-left: 0 !important;}
+.mt_n{margin-top: 0 !important;}
+.mb_n{margin-bottom: 0 !important;}
+
+
+
+.t_left{text-align: left;}
+.t_right{text-align: right;}
+.t_center{text-align: center;}
+.upper{text-transform: uppercase;}
+
+
+.left{float: left;}
+.right{float: right;}
+.clear{clear: both}
+.container
+{
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+/*++++++++++++++imposition++++++++++++*/
+
+header
+{
+	background: url(../img/bg.jpg);
+	background-size: cover;
+	background-attachment:fixed;
+}
+
+/* Menu in header */
+
+nav
+{
+	padding-top:40px;
+}
+
+.header_logo
+{
+	font-family: Montserrat;
+	font-size: 24px;
+	font-weight: bold;
+	color: white
+}
+
+.header_menu li
+{
+	display: inline-block;
+	margin-right: 29px; 
+}
+
+.header_menu a
+{
+	color: white;
+	text-decoration: none;
+}
+
+.header_menu a:hover
+{
+	border-bottom: 2px solid white;
+	transition: all .1s;
+}
+
+.header_menu li:last-child
+{
+	margin-right: 0;
+}
+
+/* headers h2 , p , button */
+
+header h2
+{
+	font-size: 48px;
+	color: white;
+	margin-top:260px;
+	font-weight: 300
+}
+
+header p
+{
+	font-size: 20px;
+	color: white;
+	margin-top:34px;
+}
+
+header p:last-child
+{
+	margin-top:54px;
+}
+
+header button
+{
+	width: 180px;
+	height: 49px;
+	border:2px solid white;
+	background: none;
+	font-size: 16px;
+	color: white;
+	outline: none;
+	cursor: pointer;
+	margin-bottom: 262px;
+	transition: all 1.5s;
+	font-weight: bold;
+}
+
+header button:hover
+{
+	background-color:white;
+	color: black;
+}
+
+/*++++++++++Services+++++++++*/
+
+/* options h4 , p */
+
+
+#Services h4
+{
+	font-size: 20px;
+	margin-top:100px;
+	padding-bottom: 34px;
+}
+
+#Services h4 span
+{
+	position: relative;
+}
+
+#Services h4 span::after
+{
+	content: "";
+	display: inline-block;
+	width: 51px;
+	height: 2px;
+	background-color: #333;
+
+	position: absolute;
+	bottom: -34px;
+	left: 22px
+}
+#Services .Services_p
+{
+	font-size: 16px;
+	margin-top:32px;
+}
+
+#Services h4 , #Services .Services_p
+{
+	color:#333;
+}
+
+
+/* options block */
+
+.Services_plus
+{
+	margin-top:70px;
+	padding-bottom: 200px;
+}
+
+.Services_plus_block
+{
+	width: 350px;
+	float: left;
+	margin-left: 43px;
+}
+
+.Services_plus_block:first-child
+{
+	margin-left: 4px;
+}
+
+
+.Services_plus_block h5 , 
+.Services_plus_p
+{
+	margin:30px;
+	color:#333;
+}
+
+.Services_plus_block img{margin-left: 129px;}
+.Services_plus_block h5{font-size: 20px;font-family: Montserrat;}
+
+.Services_plus_p
+{
+	font-size: 14px;
+	margin: 0 ;
+    padding: 0;
+}
+
+
+/*++++++++++About_me+++++++++*/
+
+#about_me h4
+{
+	font-size: 20px;
+	margin-top:100px;
+	padding-bottom: 34px;
+}
+
+#about_me h4 span
+{
+	position: relative;
+}
+
+#about_me h4 span::after
+{
+	content: "";
+	display: inline-block;
+	width: 51px;
+	height: 2px;
+	background-color: #333;
+
+	position: absolute;
+	bottom: -34px;
+	left: 22px
+}
+
+#about_me .Services_p
+{
+	font-size: 16px;
+	margin-top:32px;
+	margin-bottom: 73px;
+}
+
+#about_me h4 ,
+#about_me .Services_p ,
+.About_p ,
+.About_p_2
+{
+	color:#333;
+}
+
+/*About_me conttet*/
+
+.About_p , .About_p_2
+{
+	max-width: 555px;
+	float: left;
+	font-size: 14px;
+	margin-bottom: 73px;
+}
+
+.About_p_2
+{
+	margin-left: 30px;
+}
+
+.autor ,
+.autor_ot
+{
+	float: left;
+	margin-right: 29px;
+}
+
+.autor_ot
+{
+	margin-right: 0px;
+}
+
+.autor_p1
+{
+	font-family:Montserrat;
+	font-size: 14px;
+	margin-top: 17px;
+}
+
+.autor_p2
+{
+	font-size: 13px;
+	margin-top:7px;
+}
+
+.autor_p1 , .autor_p2
+{
+	color:#333;
+}
+
+.about_photo img
+{
+	transition: all 1s;
+}
+
+.about_photo img:hover
+{
+	filter: brightness(0.4);
+}
+
+/*+++++++++latest_works++++++++++++*/
+
+
+/* options h4 , p */
+
+
+#latest_works h4
+{
+	font-size: 20px;
+	margin-top:100px;
+	padding-bottom: 34px;
+}
+
+#latest_works h4 span
+{
+	position: relative;
+}
+
+#latest_works h4 span::after
+{
+	content: "";
+	display: inline-block;
+	width: 51px;
+	height: 2px;
+	background-color: #333;
+
+	position: absolute;
+	bottom: -34px;
+	left: 50px
+}
+#latest_works .Services_p
+{
+	font-size: 16px;
+	margin-top:32px;
+}
+
+#latest_works h4 , #latest_works .Services_p
+{
+	color:#333;
+}
+
+/* style block */
+
+.menu_latest_works
+{
+	margin-top:29px;
+}
+
+.menu_latest_works li
+{
+	display: inline-block;
+	margin-right: 27px;
+	font-size: 16px;
+	font-family: Montserrat;
+	color:#333;
+}
+
+.menu_latest_works li:last-child
+{
+	margin-right: 0;
+}
+
+.menu_latest_works li a
+{
+	font-family: Montserrat;
+	color:#333;
+	text-decoration: none;
+}
+
+.menu_latest_works li a:hover
+{
+	color:#c0301c;
+	transition: all .5s;
+}
+
+.portfolio
+{
+	margin-top:71px;
+}
+
+.portfolio_photo ,
+.portfolio_photo_ot
+{
+	width: 360px;
+	height: 320px;
+	background: red;
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.portfolio_photo_ot
+{
+	margin-right: 0;
+}
+
+.veiv_port
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transition: all 1s;
+	opacity: 0;
+}
+
+.veiv_port:hover
+{
+	background: rgba(192,48,28,0.7);
+	opacity: 1;
+}
+
+.veiv_port h5 , 
+.veiv_port p 
+{
+	color:white;
+} 
+
+.veiv_port h5
+{
+	font-size: 18px;
+	font-family: Montserrat;
+	margin-top:106px;
+}
+
+.veiv_port p
+{
+	margin-top:20px;
+	font-size: 12px;
+}
+
+.veiv_port button
+{
+	margin-top:15px;
+	width: 100px;
+	height: 39px;
+	background: white;
+	color:black;
+	border: 0;
+	cursor: pointer;
+	font-size: 14px;
+	color:#c0301c;
+}
+
+#our_work
+{
+	background:url(../img/arms.jpg);
+	margin-top:100px;
+	background-size: cover;
+	/*background-attachment:fixed;*/
+}
+
+#our_work h3
+{
+	padding-top:100px;
+	line-height: 44px;
+	font-size: 30px;
+	color:white;
+}
+
+#our_work button
+{
+	margin-top:42px;
+	width: 180px;
+	height: 50px;
+	font-size: 18px;
+	border:1px solid white;
+	background: none;
+	color:white;
+	cursor: pointer;
+	margin-bottom: 98px;
+}
+
+#our_work button:hover
+{
+	background: white;
+	color:black;
+	transition: all 1s;
+}
