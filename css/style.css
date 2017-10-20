@@ -664,7 +664,13 @@ header button:hover
 	display:inline-block;
 	text-decoration: none;
 	font-size: 15px;
-	font-weight: bold
+	font-weight: bold;
+	transition: border .1s;
+}
+
+.article a:hover
+{
+	border-bottom: 2px solid #c0301c;
 }
 
 /*+++++++++++sponsors+++++++++++*/
@@ -751,6 +757,7 @@ label
 	border: 1px solid #ccc;
 	border-radius: 6px;
 	position: relative;
+	cursor: pointer;
 }
 
 
